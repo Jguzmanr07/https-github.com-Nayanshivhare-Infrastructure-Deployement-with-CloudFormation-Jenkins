@@ -16,6 +16,8 @@
     - Sudo systemctl enable jenkins
     - Sudo systemctl start jenkins
 4. Open port 8080 from your ip in security  group because jenkins run on 8080
+    - ![image](https://user-images.githubusercontent.com/66699491/213908647-ecaa3c1c-838e-4abf-876a-e303f6776bea.png)
+   
 5. Open your jenkins hosted public ip address in your web browser 3.82.93.143:8080
 6. Go to your ec2 terminal and type
       - Sudo cat /var/lib/jenkins/secrets/initialAdminPassword
